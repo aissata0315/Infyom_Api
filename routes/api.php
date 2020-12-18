@@ -19,4 +19,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::resource('personnes', 'PersonneAPIController');
+Route::resource('personnes', 'PersonneAPIController'); 
+
+Route::resource('entreprises', 'EntrepriseAPIController');
